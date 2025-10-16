@@ -53,28 +53,19 @@ The workflow includes:
 ## Plots & Visualizations
 
 ### Distribution of Features
-![Months](images/Distribution of months.png)
-![Payment of Min Amount](images/Distribution of Payment_of_Min_Amount.png)
-![Payment Behaviour](images/Distribution of Payment Behaviour.png)
-![Occupation](images/Distribution of Occupation.png)
-![Credit Mix](images/Distribution of Credit Mix.png)
-![Credit Score Distribution](images/Credit Score Distribution.png)
+![Months](images/Distribution_of_months.png)
+![Payment of Min Amount](images/Distribution_of_Payment_of_Min_Amount.png)
+![Payment Behaviour](images/Distribution_of_Payment_Behaviour.png)
+![Occupation](images/Distribution_of_Occupation.png)
+![Credit Mix](images/Distribution_of_Credit_Mix.png)
+![Credit Score Distribution](images/Credit_Score_Distribution.png)
 
 ### Age Analysis
-![Age Outliers](images/df['Age'] Outliers.png)
-![Age Boxplot](images/Age Boxplot.png)
+![Age Outliers](images/Age_Outliers.png)
+![Age Boxplot](images/Age_Boxplot.png)
 
 ### Model Comparison
-![ML Models Comparison](images/Comparision of ML Models.png)
-
----
-
-### Model Comparison
-Comparison of machine learning model performance:
-
-![ML Models Comparison](images/Comparison_of_ML_Models.png)  
-*Accuracy comparison of Logistic Regression, Decision Tree, Grid Search tuned DT, and Random Forest*
-
+![ML Models Comparison](images/ML_Models_Comparison.png)
 
 ---
 
