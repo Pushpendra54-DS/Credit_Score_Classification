@@ -1,124 +1,122 @@
-# Credit Score Classification
-A machine learning project to predict customer credit scores (Good, Standard, Poor) using classification models such as Logistic Regression, Decision Tree, and Random Forest. Includes data preprocessing, outlier detection, feature selection using VIF, and model evaluation.
+# 💳 Credit Score Classification  
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Dataset](#dataset)
-3. [Data Preprocessing](#data-preprocessing)
-4. [Exploratory Data Analysis](#exploratory-data-analysis)
-5. [Plots & Visualizations](#plots--visualizations)
-6. [Feature Selection](#feature-selection)
-7. [Model Building](#model-building)
-8. [Results](#results)
-9. [Conclusion](#conclusion)
-10. [Future Work](#future-work)
-
-## Project Overview
-This project aims to predict the credit score category of customers based on various financial and demographic factors. 
-The dataset contains 100,000 records with 28 features, including information about income, debt, payment history, credit mix, and more.
-
-The workflow includes:
-- Data cleaning and preprocessing
-- Handling missing values using forward and backward filling
-- Outlier detection and removal
-- Encoding categorical variables using One-Hot Encoding
-- Feature selection using Variance Inflation Factor (VIF)
-- Model building with Logistic Regression, Decision Tree, and Random Forest
-- Hyperparameter tuning using GridSearchCV
-- Model evaluation using accuracy score, confusion matrix, and other metrics
-
-## Dataset
-- Source: (Add your dataset link if public or mention it's confidential/sample data)
-- Number of Records: 100,000
-- Number of Features: 28
-- Target Variable: `Credit_Score` (Good / Standard / Poor)
-- Feature Types: Numerical and Categorical
-
-## Data Preprocessing
-- Removed unnecessary columns
-- Replaced special characters (`_` or `NM`) with null values or meaningful replacements
-- Converted categorical features into numerical values using Label Encoding / One-Hot Encoding
-- Filled missing values using forward and backward fill methods
-- Removed outliers from `Age` column
-- Standardized/normalized features when needed
+This project aims to classify individuals’ **credit scores** based on financial and behavioral features using machine learning algorithms such as **Logistic Regression**, **Decision Tree**, and **Random Forest**.  
 
 ---
 
-## Exploratory Data Analysis (EDA)
-- Visualized feature distributions using histograms and bar plots
-- Examined relationships between features and the target variable
-- Checked correlations using heatmaps
-- 📓 Jupyter Notebook / Google Colab
-
-This project’s complete code and implementation are available in a Jupyter Notebook.
-You can explore, edit, or run it directly in Google Colab using the link below 👇
-
-🔗 Open Credit Score Classification Notebook in Google Colab
-
----
-## Plots & Visualizations
-
-![Distribution of Months](images/plots/Distribution%20of%20months.png)
-![Distribution of Occupation](images/plots/Distribution%20of%20Occupation.png)
-![Distribution of Payment of Min Amount](images/plots/Distribution%20of%20Payment_of_Min_Amount.png)
-![Distribution of Payment Behaviour](images/plots/Distribution%20of%20Payment%20Behaviour.png)
-![Distribution of Credit Mix](images/plots/Distribution%20of%20Credit%20Mix.png)
-![Credit Score Distribution](images/plots/Credit%20Score%20Distribution.png)
-
-### Age Analysis
-![Age Outliers](images/plots/df%5B'Age'%5D%20Outliers.png)
-![Age Boxplot](images/plots/Age%20Boxplot.png)
-
-### Model Comparison
-![ML Models Comparison](images/plots/Comparision%20of%20ML%20Models.png)
-
+## 📑 Table of Contents  
+1. [Overview](#overview)  
+2. [Dataset Information](#dataset-information)  
+3. [Data Preprocessing](#data-preprocessing)  
+4. [Plots & Visualizations](#plots--visualizations)  
+5. [Model Building](#model-building)  
+6. [Model Comparison](#model-comparison)  
+7. [Results](#results)  
+8. [Jupyter Notebook / Google Colab](#-jupyter-notebook--google-colab)  
+9. [Conclusion](#conclusion)  
 
 ---
 
-## Feature Selection
-- Calculated Variance Inflation Factor (VIF) for numerical features
-- Selected features with VIF < 5 to avoid multicollinearity
+## 🧩 Overview  
+The goal of this project is to predict a customer’s **credit score** (Good, Standard, Poor) based on key financial metrics and credit behaviors.  
+This helps financial institutions in making better lending and risk-assessment decisions.  
 
 ---
 
-## Model Building
-- **Logistic Regression** – baseline model
-- **Decision Tree Classifier** – with and without hyperparameter tuning
-- **Random Forest Classifier** – final model with best accuracy
-- Hyperparameter tuning using GridSearchCV for Decision Tree
+## 📊 Dataset Information  
+
+| Column | Description |
+|:--|:--|
+| Age | Age of the customer |
+| Occupation | Type of occupation |
+| Annual Income | Annual income of the customer |
+| Monthly Inhand Salary | Monthly in-hand salary |
+| Num Bank Accounts | Number of bank accounts |
+| Num Credit Card | Number of credit cards |
+| Interest Rate | Rate of interest on loans |
+| Num of Loan | Total number of loans |
+| Delay from due date | Average days delayed for payment |
+| Num of Delayed Payment | Number of delayed payments |
+| Credit Mix | Type of credit behavior (Good / Standard / Bad) |
+| Outstanding Debt | Total outstanding debt |
+| Credit Utilization Ratio | Percentage of credit used |
+| Payment of Min Amount | Whether minimum amount is paid |
+| Total EMI per month | Total EMI amount paid per month |
+| Amount invested monthly | Investment amount per month |
+| Payment Behaviour | Customer’s payment habits |
+| Monthly Balance | Monthly balance left after expenses |
+| Credit Score | Target variable (Good / Standard / Poor) |
 
 ---
 
-## Results
+## 🧹 Data Preprocessing  
 
-| Model                     | Accuracy |
-|----------------------------|---------|
-| Logistic Regression        | 61.07%  |
-| Decision Tree              | 65.06%  |
-| Decision Tree (GridSearch) | 67.68%  |
-| Random Forest              | 76.91%  |
-
-- Random Forest achieved the **best performance**.
+- Removed or replaced **special characters**.  
+- Converted all applicable columns to **int/float** datatypes.  
+- Handled **missing values** using forward and backward filling.  
+- Applied **Label Encoding** to categorical columns.  
+- Standardized numerical features before model training.  
 
 ---
 
-## Conclusion
-- Random Forest performed best for credit score prediction.
-- Feature selection and preprocessing improved model performance.
-- Dataset cleaning, handling missing values, and outlier removal were crucial steps.
+## 📈 Plots & Visualizations  
+
+### Distribution Analysis  
+![Months](images/plots/Distribution%20of%20months.png)  
+![Payment of Min Amount](images/plots/Distribution%20of%20Payment_of_Min_Amount.png)  
+![Payment Behaviour](images/plots/Distribution%20of%20Payment%20Behaviour.png)  
+![Occupation](images/plots/Distribution%20of%20Occupation.png)  
+![Credit Mix](images/plots/Distribution%20of%20Credit%20Mix.png)  
+![Credit Score Distribution](images/plots/Credit%20Score%20Distribution.png)  
+
+### Age Analysis  
+![Age Outliers](images/plots/df['Age']%20Outliers.png)  
+![Age Boxplot](images/plots/Age%20Boxplot.png)  
+
+### Model Comparison  
+![ML Models Comparison](images/plots/Comparision%20of%20ML%20Models.png)  
 
 ---
 
-## Future Work
-- Experiment with other ensemble methods like **XGBoost or LightGBM**
-- Feature engineering for more predictive power
-- Deploy model using Flask/Django or Power BI dashboards
-- Integrate more external data for better predictions
+## 🤖 Model Building  
+
+Three machine-learning models were trained and evaluated:  
+
+- **Logistic Regression (LR)**  
+- **Decision Tree (DT)**  
+- **Random Forest Classifier (RFC)**  
+
+Hyperparameter tuning was done using **GridSearchCV** for Decision Tree.  
 
 ---
 
-## Technologies Used
-- Python 3.x
-- Pandas, NumPy, Matplotlib, Seaborn
-- Scikit-learn (ML models)
-- Google Colab (notebook environment)
+## ⚖️ Model Comparison  
+
+| Model | Accuracy |
+|:--|:--:|
+| Logistic Regression | ~61% |
+| Decision Tree | ~65% |
+| Decision Tree with Hyper Parameter | ~67% |
+| Random Forest | ~77% |
+
+---
+
+## 📓 Jupyter Notebook / Google Colab  
+
+You can open and explore the full notebook directly in Google Colab using the link below 👇  
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Pushpendra54-DS/Credit_Score_Classification/blob/main/notebooks/Credit_score.ipynb)
+
+---
+
+## 🏁 Conclusion  
+
+- Random Forest outperformed other models in accuracy.  
+- Proper data cleaning and encoding significantly improved model performance.  
+- Feature importance analysis shows that **Payment Behaviour**, **Credit Mix**, and **Outstanding Debt** have the strongest impact on credit score prediction.  
+
+---
+
+✅ **Author:** Pushpendra Singh  
+📘 **Repository:** [Credit_Score_Classification](https://github.com/Pushpendra54-DS/Credit_Score_Classification)
+
