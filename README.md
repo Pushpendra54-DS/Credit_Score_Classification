@@ -53,36 +53,19 @@ The workflow includes:
 ## Plots & Visualizations
 
 ### Distribution of Features
-These plots show the distribution of key categorical features in the dataset:
-
-![Months](images/Distribution_of_months.png)  
-*Distribution of data across different months*
-
-![Payment of Min Amount](images/Distribution_of_Payment_of_Min_Amount.png)  
-*Distribution of customers by Payment of Minimum Amount*
-
-![Payment Behaviour](images/Distribution_of_Payment_Behaviour.png)  
-*Distribution of customers by Payment Behaviour*
-
-![Occupation](images/Distribution_of_Occupation.png)  
-*Distribution of customers by Occupation*
-
-![Credit Mix](images/Distribution_of_Credit_Mix.png)  
-*Distribution of customers by Credit Mix*
-
-![Credit Score Distribution](images/Credit_Score_Distribution.png)  
-*Overall distribution of Credit Scores*
-
----
+![Months](image/Distribution_of_months.png)
+![Payment of Min Amount](image/Distribution_of_Payment_of_Min_Amount.png)
+![Payment Behaviour](image/Distribution_of_Payment_Behaviour.png)
+![Occupation](image/Distribution_of_Occupation.png)
+![Credit Mix](image/Distribution_of_Credit_Mix.png)
+![Credit Score Distribution](image/Credit_Score_Distribution.png)
 
 ### Age Analysis
-These plots highlight age-related statistics and outliers:
+![Age Outliers](image/Age_Outliers.png)
+![Age Boxplot](image/Age_Boxplot.png)
 
-![Age Outliers](images/Age_Outliers.png)  
-*Outliers detected in Age*
-
-![Age Boxplot](images/Age_Boxplot.png)  
-*Boxplot of Age distribution*
+### Model Comparison
+![ML Models Comparison](image/Comparison_of_ML_Models.png)
 
 ---
 
