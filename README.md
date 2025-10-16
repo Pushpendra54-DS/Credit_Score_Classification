@@ -5,21 +5,34 @@ This project aims to classify individuals’ **credit scores** based on financia
 ---
 
 ## 📑 Table of Contents  
-1. [Overview](#overview)  
-2. [Dataset Information](#dataset-information)  
-3. [Data Preprocessing](#data-preprocessing)  
-4. [Plots & Visualizations](#plots--visualizations)  
-5. [Model Building](#model-building)  
-6. [Model Comparison](#model-comparison)  
-7. [Results](#results)  
-8. [Jupyter Notebook / Google Colab](#-jupyter-notebook--google-colab)  
-9. [Conclusion](#conclusion)  
+1. [Overview](#overview)
+2. [Dataset](#dataset)
+3. [Dataset Information](#dataset-information)  
+4. [Data Preprocessing](#data-preprocessing)  
+5. [Plots & Visualizations](#plots--visualizations)  
+6. [Model Building](#model-building)  
+7. [Model Comparison](#model-comparison)  
+8. [Results](#results)  
+9. [Jupyter Notebook / Google Colab](#-jupyter-notebook--google-colab)  
+10. [Conclusion](#conclusion)  
 
 ---
 
 ## 🧩 Overview  
 The goal of this project is to predict a customer’s **credit score** (Good, Standard, Poor) based on key financial metrics and credit behaviors.  
 This helps financial institutions in making better lending and risk-assessment decisions.  
+
+---
+
+## 📂 Dataset  
+
+The dataset used for this project is hosted on **Google Drive** due to its large size.  
+You can download it from the link below:  
+
+📎 [Download the Credit Score Dataset (Google Drive)](https://drive.google.com/file/d/1Lg6ldTJqbiH2ryPxYhCTWms5LRXNgEpt/view?usp=drive_link)  
+
+Once downloaded, place the file inside a `data/` folder in your project directory:
+
 
 ---
 
