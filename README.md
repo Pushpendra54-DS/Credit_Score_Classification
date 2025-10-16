@@ -65,7 +65,8 @@ The workflow includes:
 ![Age Boxplot](images/Age_Boxplot.png)
 
 ### Model Comparison
-![ML Models Comparison](images/Comparison_of_ML_Models.png)
+![ML Models Comparison](images/Comparision_of_ML_Models.png)
+
 
 ---
 
