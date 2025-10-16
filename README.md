@@ -22,7 +22,8 @@ This project aims to classify individuals’ **credit scores** based on financia
 7. [Model Comparison](#model-comparison)  
 8. [Results](#results)  
 9. [Jupyter Notebook / Google Colab](#-jupyter-notebook--google-colab)  
-10. [Conclusion](#conclusion)  
+10. [Conclusion](#conclusion)
+11.  [License](#license)
 
 ---
 
@@ -135,7 +136,10 @@ You can open and explore the full notebook directly in Google Colab using the li
 - Random Forest outperformed other models in accuracy.  
 - Proper data cleaning and encoding significantly improved model performance.  
 - Feature importance analysis shows that **Payment Behaviour**, **Credit Mix**, and **Outstanding Debt** have the strongest impact on credit score prediction.  
+---
 
+## License
+This project is licensed under the **MIT License**.
 ---
 
 ✅ **Author:** Pushpendra Singh  
