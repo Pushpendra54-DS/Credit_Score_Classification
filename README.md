@@ -48,6 +48,12 @@ The workflow includes:
 - Visualized feature distributions using histograms and bar plots
 - Examined relationships between features and the target variable
 - Checked correlations using heatmaps
+- 📓 Jupyter Notebook / Google Colab
+
+This project’s complete code and implementation are available in a Jupyter Notebook.
+You can explore, edit, or run it directly in Google Colab using the link below 👇
+
+🔗 Open Credit Score Classification Notebook in Google Colab
 
 ---
 ## Plots & Visualizations
