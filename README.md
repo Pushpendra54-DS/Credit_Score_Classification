@@ -6,11 +6,12 @@ A machine learning project to predict customer credit scores (Good, Standard, Po
 2. [Dataset](#dataset)
 3. [Data Preprocessing](#data-preprocessing)
 4. [Exploratory Data Analysis](#exploratory-data-analysis)
-5. [Feature Selection](#feature-selection)
-6. [Model Building](#model-building)
-7. [Results](#results)
-8. [Conclusion](#conclusion)
-9. [Future Work](#future-work)
+5. [Plots & Visualizations](#plots--visualizations)
+6. [Feature Selection](#feature-selection)
+7. [Model Building](#model-building)
+8. [Results](#results)
+9. [Conclusion](#conclusion)
+10. [Future Work](#future-work)
 
 ## Project Overview
 This project aims to predict the credit score category of customers based on various financial and demographic factors. 
@@ -49,20 +50,22 @@ The workflow includes:
 - Checked correlations using heatmaps
 
 ---
-
 ## Plots & Visualizations
 
-### Distribution of Numerical Features
-![Numerical Features](images/Distribution_of_Numerical_Features.png)
+### Distribution of Features
+![Months](images/Distribution of months.png)  
+![Payment of Min Amount](images/Distribution of Payment_of_Min_Amount.png)  
+![Payment Behaviour](images/Distribution of Payment Behaviour.png)  
+![Occupation](images/Distribution of Occupation.png)  
+![Credit Mix](images/Distribution of Credit Mix.png)  
+![Credit Score Distribution](images/Credit Score Distribution.png)  
 
-### Distribution of Categorical Features
-![Categorical Features](images/Distribution_of_Categorical_Features.png)
+### Age Analysis
+![Age Outliers](images/df['Age'] Outliers.png)  
+![Age Boxplot](images/Age Boxplot.png)  
 
-### Correlation Heatmap
-![Correlation Heatmap](images/Correlation_Heatmap.png)
-
-### Model Accuracy Comparison
-![Model Comparison](images/Model_Comparison.png)
+### Model Comparison
+![ML Models Comparison](images/Comparision of ML Models.png)
 
 ---
 
