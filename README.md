@@ -50,6 +50,22 @@ The workflow includes:
 
 ---
 
+## Plots & Visualizations
+
+### Distribution of Numerical Features
+![Numerical Features](images/Distribution_of_Numerical_Features.png)
+
+### Distribution of Categorical Features
+![Categorical Features](images/Distribution_of_Categorical_Features.png)
+
+### Correlation Heatmap
+![Correlation Heatmap](images/Correlation_Heatmap.png)
+
+### Model Accuracy Comparison
+![Model Comparison](images/Model_Comparison.png)
+
+---
+
 ## Feature Selection
 - Calculated Variance Inflation Factor (VIF) for numerical features
 - Selected features with VIF < 5 to avoid multicollinearity
