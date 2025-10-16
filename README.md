@@ -1,5 +1,13 @@
 # 💳 Credit Score Classification  
 
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![Colab](https://img.shields.io/badge/Colab-Notebook-orange?logo=googlecolab&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Last Commit](https://img.shields.io/github/last-commit/Pushpendra54-DS/Credit_Score_Classification)
+![Issues](https://img.shields.io/github/issues/Pushpendra54-DS/Credit_Score_Classification)
+![Forks](https://img.shields.io/github/forks/Pushpendra54-DS/Credit_Score_Classification?style=social)
+![Stars](https://img.shields.io/github/stars/Pushpendra54-DS/Credit_Score_Classification?style=social)
+
 This project aims to classify individuals’ **credit scores** based on financial and behavioral features using machine learning algorithms such as **Logistic Regression**, **Decision Tree**, and **Random Forest**.  
 
 ---
