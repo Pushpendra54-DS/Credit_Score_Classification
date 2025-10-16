@@ -52,19 +52,19 @@ The workflow includes:
 ---
 ## Plots & Visualizations
 
-![Distribution of Months](images/plots/Distribution of months.png)  
-![Distribution of Occupation](images/plots/Distribution of Occupation.png)  
-![Distribution of Payment of Min Amount](images/plots/Distribution_of_Payment_of_Min_Amount.png)  
-![Distribution of Payment Behaviour](images/plots/Distribution of Payment Behaviour.png)  
-![Distribution of Credit Mix](images/plots/Distribution of Credit Mix.png)  
-![Credit Score Distribution](images/plots/Credit Score Distribution.png)  
+![Distribution of Months](images/plots/Distribution%20of%20months.png)
+![Distribution of Occupation](images/plots/Distribution%20of%20Occupation.png)
+![Distribution of Payment of Min Amount](images/plots/Distribution%20of%20Payment_of_Min_Amount.png)
+![Distribution of Payment Behaviour](images/plots/Distribution%20of%20Payment%20Behaviour.png)
+![Distribution of Credit Mix](images/plots/Distribution%20of%20Credit%20Mix.png)
+![Credit Score Distribution](images/plots/Credit%20Score%20Distribution.png)
 
 ### Age Analysis
-![Age Outliers](images/plots/df['Age'] Outliers.png)  
-![Age Boxplot](images/plots/Age Boxplot.png)  
+![Age Outliers](images/plots/df%5B'Age'%5D%20Outliers.png)
+![Age Boxplot](images/plots/Age%20Boxplot.png)
 
 ### Model Comparison
-![ML Models Comparison](images/plots/Comparision of ML Models.png)
+![ML Models Comparison](images/plots/Comparision%20of%20ML%20Models.png)
 
 
 ---
